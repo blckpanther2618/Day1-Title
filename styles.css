@@ -1,0 +1,102 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+      box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+      overflow: hidden;
+      background:linear-gradient(to top right,#12100E,#2B4162);
+    color: #333;
+      font-family: 'Open Sans', Helvetica, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);     
+    display: flex;
+    text-align: center;
+    float:left;
+  }
+  .one-a
+  {
+    height: 40px;
+    width:20px;
+    background:white;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+    transform: rotate(50deg);
+    border-radius: 3px;
+    position: absolute;
+    z-index: 1;
+  }
+  .one-b
+  {
+    height:100px;
+    width: 24px;
+    background:white;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+    border-radius: 3px;
+    margin-left: 16px;
+    float:left;
+    z-index: 10;;
+  }
+  .zero-a
+  {
+    height: 100px;
+    width:100px;
+    border:24px solid white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: -10px;
+    /* box-shadow: 0 0 13px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #0073e6, 0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 10px #0073e6, 0 0 10px #0073e6;    
+    z-index: 8;
+  }
+  .zero-b
+  {
+    height: 100px;
+    width:100px;
+    border:24px solid white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    /* box-shadow: 0 0 13px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #0073e6, 0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 10px #0073e6, 0 0 10px #0073e6;    
+    margin-left:-18px;
+    z-index: -2;
+    float:left;
+  }
+  .Days{
+    font-family: 'Courier New';
+    font-size: 82px;
+    font-weight: 700;
+    color: white;   
+    float:left;
+    clear:left; 
+  }
+  .main
+  {
+    display: flex;
+    flex-flow: column;
+  }
+  .test
+  {
+    margin-top: 90px;
+    margin-left: -200px;
+  }
+  .chllnge
+  {
+    width:fit-content;
+    height: fit-content;
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin-top: 165px;
+    margin-left: -200px;
+  }
